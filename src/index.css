@@ -68,11 +68,14 @@ code {
 }
 .input1 {
   padding: 10px;
-  padding-right: 15rem;
-  border-radius: 10px;
+  padding-right: 5rem;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-right-color: #f5f5f7;
   font-size: 20px;
   background-color: #f5f5f7;
   color: black;
+  border-color: transparent;
 }
 @media only screen and (max-width: 500px) {
   .input1 {
@@ -93,11 +96,34 @@ code {
     font-size: 14px;
   }
 }
+.btn1 {
+  font-size: 19.5px;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-left-color: #f5f5f7;
+  background-color: #f5f5f7;
+  border-color: transparent;
+  cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+  .btn1 {
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 3px;
+    margin-left: 0%;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+}
 .input2 {
   padding: 10px;
-  padding-right: 15rem;
-  border-radius: 10px;
+  padding-right: 3rem;
   background-color: #f5f5f7;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-right-color: #f5f5f7;
+  border-color: transparent;
 }
 @media only screen and (max-width: 500px) {
   .input2 {
@@ -106,6 +132,25 @@ code {
     padding-right: 3px;
     margin-left: 0%;
     margin-top: 5px;
+  }
+}
+.btn2 {
+  padding: 10px;
+  background-color: #f5f5f7;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-right-color: #f5f5f7;
+  border-color: transparent;
+  cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+  .btn2 {
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 3px;
+    margin-left: 0%;
+    margin-top: 5px;
+    cursor: pointer;
   }
 }
 .calender {
@@ -232,7 +277,9 @@ span {
   text-transform: capitalize;
   text-align: center;
   font-size: 20px;
-  background-color: darkgray;
+  background-color: black;
+  border-color: #f5f5f7;
+  color: white;
 }
 @media only screen and (max-width: 500px) {
   .btn {
